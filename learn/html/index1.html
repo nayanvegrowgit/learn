@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div onclick="onclickfun()" style="margin: 40px; border: 1px solid black">
+      <div onclick="onclickfun()" style="margin: 40px; border: 1px solid black">
+        <div
+          id="in_div"
+          onclick="onclickfun()"
+          style="
+            height: 100px;
+            width: 100px;
+            background-color: beige;
+            margin: 10px;
+            border: 1px solid black;
+          "
+        ></div>
+      </div>
+    </div>
+    <script>
+      function onclickfun(event) {
+        console.log(event);
+      }
+      const indiv = document.getElementById("in_div");
+      indiv.innerText = "This in in div block";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.level0 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .level1 {
+    font-size: larger;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .imgclass0 {
+    width: 100px;
+    position: fixed;
+    border-radius: 5px;
+    float: left;
+    margin-right: 100px;
+    z-index: -1;
+  }
+  .paralevel1 {
+    float: right;
+  }

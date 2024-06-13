@@ -1,0 +1,50 @@
+
+.login {
+    text-align: center;    
+    border-radius: 5px;
+    background-image: url(./pictures/flower.png);
+    background-size: 100px;
+    background-attachment: fixed;
+    padding: 40% 20px;
+  }
+
+  label {   
+    text-decoration: double;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+  }
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 0.5;
+  }
+  input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 0.5;
+  }
+  input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  
+  

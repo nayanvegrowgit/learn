@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home | Page</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <p class="level0">List of objects</p>
+    <ul>
+      <li><a href="test-project.html">test-project</a></li>
+      <li><a href="cafe-menu.html" target="_blank">cafe-menu</a></li>
+      <li><a href="CatGallary.html" target="_blank">CatGallery</a></li>
+      <li><a href="canvas-box.html" target="_blank">canvas-box</a></li>
+      <li><a href="PhotoGallery.html" target="_blank">PhotoGallery</a></li>
+    </ul>
+  </body>
+</html>
